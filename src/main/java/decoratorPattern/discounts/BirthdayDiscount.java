@@ -9,6 +9,7 @@ import static utils.DiscountConstants.BIRTHDAY_DISCOUNT;
  * Created by Anastasiya on 29.03.2017.
  */
 public class BirthdayDiscount extends DiscountsDecorator {
+    //why package private?
     Perfume perfume;
 
     public BirthdayDiscount(Perfume perfume) {
